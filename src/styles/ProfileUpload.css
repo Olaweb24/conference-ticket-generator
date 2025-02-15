@@ -1,0 +1,282 @@
+.profile-upload-container {
+    max-width: 500px;
+    height: 650px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(12, 48, 53);
+    box-shadow: 0px 0px 1px 1px rgb(78, 85, 92);
+    border-radius: 20px;
+  }
+  
+  .upload-description{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  h2{
+    margin-top: 10px;
+  }
+
+  h3{
+    text-align: left;
+    font-size: 0.9em;
+    margin: 0 0 0 10px;
+  }
+
+  p{
+    margin-top: 10px;
+  }
+  .progress-bar {
+    position: relative;
+    width: 90%;
+    height: 4px;
+    background-color: #264653;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  /*.progress {
+    height: 100%;
+    background: #217575;
+    width: 60%;
+    border-radius: 4px;
+  }
+  */
+  
+.box-container{
+    box-shadow: 0px 0px 1px 1px rgb(78, 85, 92);
+    width: 450px;
+    border-radius: 20px;
+     padding-top: 10px;
+     margin: 20px 0 0 25px;
+    height: 550px;
+    background-color: rgb(16, 51, 56)
+}
+
+.upload-box-container{
+    box-shadow: 0px 0px 1px 1px rgb(78, 85, 92);
+    width: 400px;
+    border-radius: 20px;
+     padding-top: 10px;
+     margin: 20px 0 0 25px;
+    height: 200px;
+    background-color: rgb(16, 51, 56)
+}
+
+.upload-box-inner{
+    width: 350px;
+     padding-top: 10px;
+     margin: 20px 0 0 25px;
+    height: 130px;
+    background-color: rgb(5, 42, 48)
+}
+  .email-upload-container{
+    height: 00px;
+  }
+  .input-group {
+    margin: 20px 30px 0 10px;
+    
+    
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(5, 81, 100);
+    border-radius: 5px;
+    font-size: 16px;
+    background: transparent;
+    color: white;
+    font-size: 0.9em;
+  }
+  
+  .image-upload-container {
+    margin-top: 10px;
+  }
+  
+  .upload-box {
+    display: block;
+    padding: 5px;
+    border: 3px solid #2bacac;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    color: #e1e6e6;
+    height: 120px;
+    width: 200px;
+    margin: 1px 50px 10px 70px;
+    background-color: #306161;
+  }
+
+  
+  .uploaded-image {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 2px solid #00ffff;
+  }
+  
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .back-btn, .next-btn {
+    background: #249cb1;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+  /* Responsive Adjustments */
+@media screen and (max-width: 1024px) {
+    .profile-upload-container {
+        max-width: 90%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .box-container {
+        width: 90%;
+        height: auto;
+        padding: 15px;
+        margin: 20px auto;
+    }
+
+    .upload-box-container {
+        width: 90%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .upload-box-inner {
+        width: 85%;
+        height: auto;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .profile-upload-container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .box-container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .upload-box-container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .upload-box-inner {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .input-group {
+        margin: 15px 10px;
+    }
+
+    input {
+        font-size: 14px;
+    }
+
+    .upload-box {
+        width: 90%;
+        max-width: 250px;
+        margin: 10px auto;
+        font-size: 13px;
+    }
+
+    .uploaded-image {
+        width: 80px;
+        height: 80px;
+    }
+
+    .button-group {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .back-btn, .next-btn {
+        width: 90%;
+        max-width: 250px;
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .profile-upload-container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .box-container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .upload-box-container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .upload-box-inner {
+        width: 95%;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 0.8em;
+    }
+
+    input {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .upload-box {
+        max-width: 200px;
+        font-size: 12px;
+    }
+
+    .uploaded-image {
+        width: 70px;
+        height: 70px;
+    }
+
+    .button-group {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .back-btn, .next-btn {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
